@@ -1,7 +1,10 @@
+import { Outlet } from "react-router"
+
 const ShopLayout = () => {
   return (
     <div>
-      ShopLayout
+        ShopLayout
+        <Outlet/>
     </div>
   )
 }
